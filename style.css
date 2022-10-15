@@ -5,12 +5,14 @@ button {
   color: white;
   border: none;
   background-color: blue;
-  /* transition properties make changing the state of a component (in this case a button) happen in a more organic way */
-  transition-property: background-color;
-  transition-duration: 1s;
-  transition-delay: 2s;
+  /* In property transition: target, duration, transition-timing, delay
+  use comma separete to more then one element transition
+  use target = all to transition all elements  */
+  transition: all 2s ease-in;
 }
 
 button:hover {
   background-color: green;
+  color: black;
+  border-radius: 50%;
 }
