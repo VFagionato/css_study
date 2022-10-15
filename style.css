@@ -8,6 +8,7 @@ button {
   /* transition properties make changing the state of a component (in this case a button) happen in a more organic way */
   transition-property: background-color;
   transition-duration: 1s;
+  transition-delay: 2s;
 }
 
 button:hover {
