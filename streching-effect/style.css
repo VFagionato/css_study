@@ -1,0 +1,25 @@
+body {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a {
+  padding: 40px 80px;
+  font-family: 'Montserrat', sans-serif;
+  font-weight: 200;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #e1332d;
+  font-size: 45px;
+  border: 1px solid #e1332d;
+  position: relative;
+  transition: all .5s;
+}
+
+a:hover {
+  border: 7px solid #e1332d;
+  font-weight: 900;
+  letter-spacing: 10px;
+}

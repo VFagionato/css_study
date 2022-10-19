@@ -1,18 +1,19 @@
 button {
   height: 90px;
-  width: 290px;
-  font-size: 28px;
+  width: 90px;
+  font-size: 18px;
   color: white;
   border: none;
   background-color: blue;
   /* In property transition: target, duration, transition-timing, delay
   use comma separete to more then one element transition
   use target = all to transition all elements  */
-  transition: all 2s ease-in;
+  transition: all 1s ease-in 1s;
 }
 
 button:hover {
   background-color: green;
   color: black;
   border-radius: 50%;
+  transform: translate(200px, 100px) scale(.5) rotate(-360deg);
 }
